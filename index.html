@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Sustentación</title>
+		<title>Computación cuántica</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -17,19 +17,22 @@
 		<div class="reveal">
 			<div class="slides">
 				
-				<section data-background="videos/intro.gif">
+				<section data-background="videos/fisica.png">
 				
-				<div style="background-color: rgba(0, 0, 0, 0.2); color: #fff; padding: 20px;">
-				<h5 align="justify">Introducción a la computación cuántica:
-				    Fundamentos y aplicaciones para estudiantes de pregrado</h5>
+				<div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+				<h5 align="center">¿QUÉ ES LA COMPUTACIÓN CUÁNTICA? PERSPECTIVA Y DIFICULTAD DE ENSEÑANZA</h5>
 				  
-				<p style="font-size:3vw">Sustentación de trabajo de grado en la modalidad monografía para optar al título de "Licenciado en 					Física"<p>
-				<br> 
+				<p style="font-size:3vw">XXV SEMANA DE LA ENSEÑANZA DE LA FÍSICA<p>
+				<p style="font-size:1.5vw">ENSEÑANZA DE LA FÍSICA CUÁNTICA: PERSPECTIVAS Y CURRICULO<p>
+				<img data-src="videos/distrital.png" width="100" height="100" align="left">
+				<img data-src="videos/sef.png" width="140" height="94" align="right">
+				<br>
 				<p>Harold Yesid Laserna Diaz<p>
 				
-				<p style="font-size:3vw">Director: César Aurelio Herreño Fierro<p>
-				<p style="font-size:1.5vw">Universidad Francisco José de Caldas<p>
-				<p style="font-size:1.5vw">2022<p>
+				
+				<p style="font-size:2.5vw">Universidad Francisco José de Caldas<p>
+				<p style="font-size:2.5vw">Grupo de Física e Informática FISINFOR<p>
+				<p style="font-size:2.5vw">2022<p>
 				</section>
 				<section data-background-iframe="https://wall.sli.do/event/jvMi2f9MZa7i58uLx2w1nA" >
 				<div style="background-color: rgba(0, 0, 0, 0.2); position: absolute; padding: 20px; top: -280px">
@@ -37,6 +40,266 @@
 				
 				</div>
 				</section>
+				<section data-background="videos/intro.gif" data-background-transition="zoom" data-transition="fade">
+				<div style="background-color: rgba(0, 0, 0, 0.2); color: #fff; padding: 20px;">
+				<h3>índice</h3>
+				<font size="6.5">
+				    <ul>
+      
+      <li>Mecánica cuántica</li>
+      <li class="fragment fade-up" >Problema de interacción de dos partículas desde lo clásico y lo cuántico</li>
+      
+      <li class="fragment fade-left">Problemática de entender la computación cuántica</li>
+    </ul>
+    </font>
+    </div>
+				</section>
+				<section>
+					<section data-background-video="videos/wave.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 20px;">
+					<h1>Mecánica cuántica</h1>
+					<ul>
+						<li class="fragment fade-right">Función de onda y probabilidad</li>
+						<li class="fragment fade-up" >Medición</li>
+						<li class="fragment fade-down">Incertidumbre de Heisenberg</li>
+					</ul></div>
+					</section>
+					<section data-background-video="videos/wave.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 20px;">
+					<ul>
+					<li >\[\begin{aligned}
+					\Psi(r,t) \rightarrow \ Función \ de \ onda
+					\end{aligned} \]</li>
+					
+					<li class="fragment fade-up">\[\begin{aligned} \tiny
+					i\hbar\frac{\partial \Psi(r,t)}{\partial t}=-\dfrac{\hslash^2}{2m} \, \nabla^2 \Psi(r,t)+V(r,t) \Psi(r,t)
+					\end{aligned} \]</li>
+					<li class="fragment fade-down"> \[\begin{aligned}
+					P \propto |\Psi(r,t)|^2\rightarrow  Probabilidad  
+					\end{aligned} \]</li>
+					
+					<li class="fragment fade-down"> \[\begin{aligned}
+					E \rightarrow  Energía  
+					\end{aligned} \]</li>
+					
+					<li class="fragment fade-down"> \[\begin{aligned}
+					\tiny E[q] \rightarrow  \ Valor \ esperado \ de \ una \ variable \ de \ interés  
+					\end{aligned} \]</li>
+					</ul>
+					</div>
+					</section>
+					<section data-background-video="videos/wave.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 20px;">
+					<p>La descripción de la realidad está dada por la función de onda en la mecánica cuántica.</p>
+					</div>
+					</section>
+					<section data-background-video="videos/probability.mp4" data-background-video-loop="true">
+					</section>
+					<section data-background-video="videos/medicion.mp4" data-background-video-loop="true">
+					</section>
+					<section data-background-video="videos/medicion.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<p>¿Si mido la posición de la partícula es posible medir su velocidad (momento lineal)?</p>
+					</section>
+					<section data-background-video="videos/medicion.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<p>¿Si mido la posición de la partícula es posible medir su velocidad (momento lineal)?</p>
+					<p>Si, pero...</p>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/incertidumbre.mp4" data-background-video-loop="true">
+					</section>
+					
+					<section data-background-video="videos/incertidumbre.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<p> Dos cantidades (velocidad y posición) no pueden tener una realidad simultánea.</p>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/medicion.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h3>Resumen</h3>
+					<ul>
+					<li>La descripción de la realidad está dada por la función de onda en la mecánica cuántica.</li>
+					<li>Dos cantidades (velocidad y posición) no pueden tener una realidad simultánea.</li>
+					</ul>
+					<br>
+					<br>
+					<small> Einstein, Albert, Boris Podolsky, and Nathan Rosen. "Can quantum-mechanical description of physical reality be considered complete?." Physical review 47.10 (1935): 777.</small>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/medicion.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					Problema de la interacción de dos partículas, ¿Qué sucede después de la interacción?
+					</div>
+					
+					</section>
+					
+					<section data-background-video="videos/newton.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					Problema desde la mecánica clásica
+					</div>
+					</section>
+					<section data-background-video="videos/newton.mp4" data-background-video-loop="true">
+					</section>
+					
+					<section data-background-video="videos/wave.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					Problema desde la mecánica cuántica
+					</div>
+					</section>
+					
+					<section data-background-video="videos/wave.mp4" data-background-video-loop="true">
+					</section>
+					
+					<section data-background-video="videos/wave.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					Análisis de la problemática mediante el siguiente experimento mental (Bohm Gedankenexperiment)
+					<br>
+					</br>
+					<small>Bohm, David, and Yakir Aharonov. "Discussion of experimental proof for the paradox of Einstein, Rosen, and Podolsky." Physical Review 108.4 (1957): 1070.</small>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/pionlogical.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					Primera posibilidad
+					</div>
+					</section>
+					
+					<section data-background-video="videos/pionlogical.mp4" data-background-video-loop="true">
+					</section>
+					
+					<section data-background-video="videos/pion1.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					Segunda posibilidad
+					</div>
+					</section>
+					
+					<section data-background-video="videos/pion1.mp4" data-background-video-loop="true">
+					</section>
+					
+					<section data-background-video="videos/einstein.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					Tercera posibilidad
+					</div>
+					</section>
+					
+					<section data-background-video="videos/einstein.mp4" data-background-video-loop="true">
+					</section>
+					
+					<section data-background-video="videos/pion1.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					
+					Descripción de la realidad del <b>positrón</b> $\Psi_{+}$.  
+					
+					Descripción de la realidad del <b>electrón</b> $\Psi_{-}$.  
+					</div>
+					</section>
+					
+					<section data-background-video="videos/einstein.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h3>Una de las dos no es cierta para Albert Einstein, Boris Podolsky y Nathan Rosen (también para Erwin Schrödinger) </h3>
+					<ul>
+					<li>La descripción de la realidad está dada por la función de onda en la mecánica cuántica.</li>
+					<li>Dos cantidades (velocidad y posición) no pueden tener una realidad simultánea.</li>
+					</ul>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/einstein.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h3>Desigualdad de Bell </h3>
+					<ul>
+					<li>$\lambda$ variable oculta</li>
+					<li>$A(a,\lambda) = \pm1 $ medición en A</li>
+					<li>$B(b,\lambda) = \pm1$ medición en B</li> 
+					<li>$C(c,\lambda) = \pm1$ medición en C</li>
+					<li>$P(a,b)$ valor medio del producto de la medición de espines en A y B </li>
+					 
+					</ul>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/einstein.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h3>Desigualdad de Bell </h3>
+					
+					$|P(a,b)-P(a,c)| 	\leq 1 + P(b,c)$
+					 
+					
+					</div>
+					
+					
+					</section>
+					
+					<section data-background-video="videos/einstein.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h3>Desigualdad de Bell desde Aspect </h3>
+					
+					<p>$\tiny S = \frac{N(a_{1},b_{1})}{N(\infty,\infty)}-\frac{N(a_{1},b_{2})}{N(\infty,\infty)}+\frac{N(a_{2},b_{1})}{N(\infty,\infty)}+\frac{N(a_{2},b_{2})}{N(\infty,\infty)}-\frac{N(a_{2},\infty)}{N(\infty,\infty)}-\frac{N(\infty,b_{1})}{N(\infty,\infty)}$</p>
+					
+					<p>$N(a_{i},b_{j})$ tasa de detección conjunta</p>
+					
+					<p>$-1 \leq S \leq 0$</p>
+					 
+					<small>Aspect, Alain. "Proposed experiment to test the nonseparability of quantum mechanics." Physical review D 14.8 (1976): 1944.</small>
+					
+					</div>
+					</section>
+					
+					<section data-background-video="videos/aspect.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h3>"Realidad" física</h3>
+					<p>$-1 \leq S \leq 0$</p>
+					<P>$S_{exp}=0.101 \pm 0.020$</p>
+					<P>$S_{exp}$ entre $0.081$ y $0.121$ </p>
+					<P>$S_{teórico}=0.112$</p>
+					<p style="color:tomato;">Clara violación a la desigualdad de Bell</p>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/pion1.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<h3>Verdadero experimento mental con respecto a la "realidad" física</h3>
+					</div>
+					</section>
+					
+					<section data-background-video="videos/pion1.mp4" data-background-video-loop="true">
+					</section>
+					
+					<section data-background-video="videos/pion1.mp4" data-background-video-loop="true">
+					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 20px;">
+					<p>$\Psi_{Bell}=\frac{1}{\sqrt{2}}(\Psi_{+}(\uparrow)\Psi_{-}(\downarrow)-\Psi_{+}(\downarrow)\Psi_{-}(\uparrow))$</p>
+					<p class="fragment fade-in-then-out">Entrelazamiento</p>
+					</div>
+					</section>
+					
+					
+					 
+					
+					
+					
+					
+					
+					
+					</section>
+					
+					</section>
+					
+					</section>
+					
+					
+					
+				</section>
+				<section data-background="videos/motivacion.gif" data-transition="convex">
+				<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 20px;">
+				<h1>Propuesta para entender la computación cuántica</h1>
+				</div>
+				</section>
+				
 				<section data-background="videos/motivacion.gif" data-transition="convex">
 					<section data-auto-animate>
 					<div  data-id="box" style="background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 20px;">
@@ -47,7 +310,6 @@
 					<h1>Motivación</h1>
 					<ul>
 						<li class="fragment fade-right">Necesidad</li>
-						<li class="fragment fade-up" >Marco de referencia</li>
 						<li class="fragment fade-down">Subjetividad</li>
 						<li class="fragment fade-left">Forma de aprendizaje propia</li>
 					</ul></div>
@@ -57,32 +319,13 @@
 					<h1>Motivación</h1>
 					<ul>
 						<li class="fragment grow">Necesidad</li>
-						<li class="fragment grow" >Marco de referencia</li>
 						<li class="fragment grow"><span class="fragment highlight-red">Subjetividad</span></li>
 						<li class="fragment grow">Forma de aprendizaje propia</li>
 					</ul></div>
 					</section>
 					
 				</section>
-				<section data-background="videos/intro.gif" data-background-transition="zoom" data-transition="fade">
-				<div style="background-color: rgba(0, 0, 0, 0.2); color: #fff; padding: 20px;">
-				<h3>índice</h3>
-				<font size="6.5">
-				    <ul>
-      
-      <li>Metodología de diseño</li>
-      <li>Capítulo 1: Algunas consideraciones matemáticas</li>
-      <li>Capítulo 2: Breve introducción a la mecánica cuántica</li>
-      <li>Anexo: Uso de python</li>
-      <li>Capítulo 3: Computación cuántica</li>
-      <li>Conclusiones</li>
-      <li>Consideraciones finales</li>
-      <li>Referencias</li>
-      <li>Tiempo de preguntas...</li>
-    </ul>
-    </font>
-    </div>
-				</section>
+				
 				
 				
 				
@@ -574,13 +817,7 @@ plot_histogram(conteo_bob)
 				</div>
 				</section>
 				</section>
-				<section data-background-video="videos/consideraciones.webm" data-background-video-loop="loop">
-				<div data-id="box" style="background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 20px;height: 100%;width: 100%;"">
-				<h1>Consideraciones finales
 				
-				</h1>
-				</div>
-				</section>
 				<section data-background-color="#280c34" data-transition="convex">
 				<div data-id="box" style="background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 20px;height: 100%;width: 100%;"">
 				<h2>Referencias</h2>
